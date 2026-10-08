@@ -17,3 +17,12 @@ creating
 writing to ./a-FORCED-A4.pdf
 $
 ```
+
+I think the code is fairly readable but the logic is
+
+```
+If the current page is wider than it is high (i.e., landscape):
+  split it down its midpoint and write both pages to the output file
+else
+  just pass it through (assuming it's portrait)
+```
