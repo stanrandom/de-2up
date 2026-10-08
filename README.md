@@ -6,6 +6,8 @@ I had some documentation as a PDF and it had been formatted for printing. The fi
 
 This wouldn't be problematic but I wanted to read this document on my e-reader (which prefers portrait mode) and the text was way too tiny for my old man eyes to be able to read. I needed to separate each doubled page into separate pages.
 
+I couldn't find a one-liner or a tool to do this, so I wrote something.
+
 I get that this is niche but it ticked my box and I'm sharing it just in case anyone else can use it.
 
 It'll create a PDF with `-FORCED-A4` at the end of the filename.
